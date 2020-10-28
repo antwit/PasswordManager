@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="4b25c234-e2cc-496f-a680-694f88dea34f" ChangeDateTime="10/28/2020 10:47:56">
+    <Property Name="ElementName" Value="[dbo].[Password].[FileId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Password]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FieId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c457a65b-5efa-48fd-ac3c-12a78e13a33c" ChangeDateTime="10/28/2020 10:48:07">
+    <Property Name="ElementName" Value="[dbo].[Password].[FieId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Password]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FileId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0e06fbd6-4c64-4a26-8b99-368c4cdbbffb" ChangeDateTime="10/28/2020 10:53:36">
+    <Property Name="ElementName" Value="[dbo].[File].[PATH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[File]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Path" />
+  </Operation>
+</Operations>
